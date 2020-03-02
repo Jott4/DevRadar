@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+li.dev-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 5px;
+  }
+  
+  li.dev-item header img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+  }
+  
+  li.dev-item header .user-info {
+    margin-left: 10px;
+  }
+  
+  .user-info strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+
+  }
+  .user-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+  }
+  li.dev-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px 0;
+  }
+  
+  li.dev-item a {
+    color: #8e4dff;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  li.dev-item a:hover {
+    color: #5a2ea6;
+  }
+
+  button.btnErase {
+    width: 20px;
+    height: 20px;
+    background: #FFF;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    color: #7d40e7;
+    transition: background 0.2s;
+    float: right;
+    border: 1px solid;
+    border-color: #7d40e7;
+
+  }
+
+  button.btnErase:hover {
+    background: #6931ca;
+    color: #FFF;
+  }
+
